@@ -1,0 +1,69 @@
+/* Common CSS Start */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+ul li {
+    list-style: none;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #ebe3cd;
+}
+
+.container {
+    width: 1330px;
+    margin: auto;
+}
+
+.align-center{
+    align-items: center;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.align-center{
+    align-items: center;
+}
+/* Common CSS End */
+
+/* NAV Start */
+
+nav .container{
+    width: 1330px;
+    background-color: #12202f;
+    height: 70px;
+    margin: auto;
+    border-radius: 50px 50px;
+}
+nav .logo {
+    width: 25%;
+    padding: 26px 66px;
+}
+
+nav .menu {
+    width: 50%;
+    text-align: center;
+}
+nav .signup {
+    width: 25%;
+    padding: 26px 78px 26px 200px;
+}
+
+nav .container ul li {
+    display: inline-block ;
+    padding: 26px 36px ;
+}
+nav .container ul li a {
+    color: #ffffff;
+}
+/* NAV End */
